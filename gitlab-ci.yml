@@ -7,3 +7,5 @@ build:webpack:
   script:
     - npm install
     - npm run build
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
