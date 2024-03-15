@@ -1,0 +1,9 @@
+stages:
+  - build
+
+build:webpack:
+  image: node:18
+  stage: build
+  script:
+    - npm install
+    - npm run build
