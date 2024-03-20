@@ -13,7 +13,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: require.resolve("babel-loader"),
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"],
+          presets: ["env", "react-app"],
           ignore: ["build", "node_modules"],
         },
       },
