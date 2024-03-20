@@ -10,11 +10,11 @@ module.exports = {
     rules: [
       {
         test: /.(js|jsx)$/,
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
         loader: require.resolve("babel-loader"),
         options: {
           presets: ["env", "react-app"],
-          ignore: ["build", "node_modules"],
+          // ignore: ["build", "node_modules"],
         },
       },
     ],
