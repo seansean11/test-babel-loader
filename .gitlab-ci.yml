@@ -2,7 +2,7 @@ stages:
   - build
 
 build:webpack:
-  image: node:18
+  image: node:12
   stage: build
   script:
     - npm install
